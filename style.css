@@ -120,12 +120,12 @@ h1 {
 
 .contenedor-de-imagen {
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente (opcional) */
-    /*height: 100vh;  Ajusta la altura según tus necesidades */
+    justify-content: center;
+    align-items: center; 
+ 
 }
 
 .imagen {
-    max-width: 100%; /* Ajusta el ancho máximo de la imagen */
-    max-height: 100%; /* Ajusta la altura máxima de la imagen */
+    max-width: 100%;
+    max-height: 100%; 
 }
