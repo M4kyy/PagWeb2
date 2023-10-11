@@ -6,7 +6,8 @@
     <title>RetroZombFlash - Catálogo de Juegos de Zombies</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <header class="header-content">
@@ -24,10 +25,52 @@
             <p>Explorar nuestra colección de juegos flash, principalmente enfocada en juegos con temática zombie. Sumérgete en el mundo de los no muertos y lucha por tu supervivencia en estos emocionantes juegos. ¡Diviértete y revive la nostalgia de los juegos de la vieja escuela!</p>
         </section>
         <section class="game">
-            <div class="game-title">1.  Road of the Dead</div>
-            <div class="contenedor-de-imagen">
+        <div class="game-title">1.  Road of the Dead</div>
+            <div class="Carrusel">
+                <div class="contenedor-de-imagen">
                 <img class="imagen" src="sources/rotd.png" alt="Descripción de la imagen">
+                <img class="imagen" src="sources/Carrrusel/Rotd-c1.jpg">
+                <img class="imagen" src="sources/Carrrusel/Rotd-c2.jpg">
+                <img class="imagen" src="sources/Carrrusel/Rotd-c3.png">
+                </div>
+                <!--
+                <div onclick="slide_slide(-1)" class="slide left">
+                    <span class="fas fa-angle-left"></span>
+                </div>
+                <div onclick="slide_slide(1)" class="slide right">
+                    <span class="fas fa-angle-right"></span>
+                </div>
+                <div class="btm-slide">
+                    <span onclick="btm_slide(1)"></span>
+                    <span onclick="btm_slide(2)"></span>
+                    <span onclick="btm_slide(3)"></span>
+                    <span onclick="btm_slide(4)"></span>
+                    <span onclick="btm_slide(5)"></span>
+                </div>
             </div>
+            <script>
+                var indexValue = 1;
+                showImg(indexValue);
+                function btm_slide(e){showImg(indexValue = e);}
+                function slide_slide(e){showImg(indexValue += e);}
+                function showImg(e){
+                    var i;
+                    const img = document.querySelectorAll('img')
+                    const slider = document.querySelectorAll('btm-slider span')
+                    if (e > img.length){indexValue = 1}
+                    if (e < 1){indexValue = img.length}
+                    for (i = 0; i < img.length; i++){
+                        img[i].style.display = "none";
+                    }
+                    for (i = 0; i < slide.length; i++){
+                        slide[i].style.background = "255, 255, 255, 0.1";
+                    }
+                    img[indexValue - 1].style.display = "block";
+                    slide[indexValue - 1].style.display = "white";
+                }
+
+            </script>
+                        -->
             <div class="game-info">
                 
                 <div class="game-description">Road of the Dead es un emocionante juego de conducción en el que debes escapar de una ciudad invadida por zombies mientras evitas obstáculos y derrotas a los no muertos en tu camino.</div>
