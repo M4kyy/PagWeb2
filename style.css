@@ -1,7 +1,7 @@
 
 
 body {
-    font-family: "Verdana", Arial, sans-serif;
+    font-family: "Verdana";
     margin: 0;
     padding: 0;
     background-image: url("sources/Full-Hd-Black-Wallpapers-Group-Dark-Wallpaper-Hd\,-Hd-.jpg");
@@ -10,13 +10,7 @@ body {
     background-repeat: no-repeat;
     
 }
-/*
-body {
-    background-image: url("sources/dark-zombie-wallpaper-preview.jpg");
-    background-repeat: no-repeat;
-    width:fit-content;
-}
-*/
+
 header  {
     
     background-color: #020202;
@@ -101,7 +95,7 @@ h1 {
  align-items: center;
  cursor: pointer;
  text-transform: uppercase;
- 
+
  }
  
  .btn:hover{
@@ -208,3 +202,44 @@ h1 {
             margin: 0 auto;
         }
         
+.expMasHeader {
+    background-color: #020202;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0; 
+}
+
+.p-Mas-header-1 {
+    font-family: "Verdana";
+    color: red;
+    font-size: large;
+}
+
+.btn-link-tls{
+    font-family: "Raleway";
+    font-weight: 300;
+    font-size: 17px;
+    color: #000000;
+    background-color: #000000;
+    margin-left: 44%;
+    padding: 10px 30px;
+    border: solid #000000 2px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 34px;
+    transition : 1303ms;
+    transform: translateY(0);
+    display: inline-block;
+    flex-direction: row;
+    cursor: pointer;
+    text-transform: uppercase;
+    }
+
+    .btn-tls:hover{
+        transition : 1303ms;
+        padding: 10px 20px;
+        transform : translateY(-0px);
+        background-color: #350000;
+        color: #000000;
+        border: solid 2px #000000;
+    
+    }
