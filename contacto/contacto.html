@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AfterFlash - Contacto</title>
+    <link rel="stylesheet" type="text/css" href="contacto.css">
+    <script src="contacto.js"></script>
+</head>
+
+<body>
+    <header class="header-content">
+        <h1>AfterFlash</h1>
+        <p class="page-description">Ponte en contacto con nosotros!.</p>
+    </header>
+
+    <h1>Contacto</h1>
+    <form id="contactForm">
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required class="input-small">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required class="input-small">
+        </div>
+        <div>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required class="input-small"></textarea>
+        </div>
+        <input type="submit" value="Enviar" class="enviar-button">
+    </form>
+    <p>Mensajes:</p>
+    <div id="msj">
+        
+        <!-- El mensaje se mostrará aquí -->
+    </div>
+    <h2>De momento no hay más mensajes!</h2>
+    
+    <section id="contacto">
+        <p>Si deseas más información, no dudes en ponerte en contacto directo conmigo.</p>
+        <address>
+            Correo electrónico: gordossalames@gmail.com<br>
+            Teléfono: (555) 555-555<br>
+            Dirección: Inside your head
+        </address>
+    </section>
+
+    <a id="BtnVolver" href="../index.html" target="_blank">Página Principal</a>
+
+   
+</body>
+</html>
+
