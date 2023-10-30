@@ -232,6 +232,7 @@ h1 {
     flex-direction: row;
     cursor: pointer;
     text-transform: uppercase;
+    text-decoration: none;
     }
 
     .btn-tls:hover{
