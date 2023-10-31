@@ -1,0 +1,109 @@
+
+.carousel2 {
+    max-width: 790px;
+    max-height: 405px;
+    margin: auto;
+    display: flex;
+}
+#imagen2 {
+    height: 405px;
+    width: 720px;
+    overflow: hidden;
+}
+
+#retroceder2{
+    font-family: Raleway;
+    font-weight: 200;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 9px 18px;
+    border: none;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 20px 0px 0px 20px;
+    transition : 1360ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    text-transform: lowercase;
+    
+    }
+    
+    #retroceder2:hover{
+        transition : 1360ms;
+    padding: 10px 20px;
+    transform : translateY(-0px);
+    background-color: #595959;
+    color: #ffffff;
+    border: solid 2px #ffffff;
+    
+    }
+
+    #avanzar2{
+        font-family: Raleway;
+        font-weight: 200;
+        font-size: 20px;
+        color: #ffffff;
+        background-color: #000000;
+        padding: 9px 18px;
+        border: none;
+        box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+        border-radius: 0px 20px 20px 0px;
+        transition : 1360ms;
+        transform: translateY(0);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        cursor: pointer;
+        text-transform: lowercase;
+        
+        }
+        
+        #avanzar2:hover{
+        transition : 1360ms;
+        padding: 10px 20px;
+        transform : translateY(-0px);
+        background-color: #595959;
+        color: #ffffff;
+        border: solid 2px #ffffff;
+        
+        }
+
+        body {
+            font-family: "Verdana";
+            margin: 0;
+            padding: 0;
+            background-image: url("../sources/Full-Hd-Black-Wallpapers-Group-Dark-Wallpaper-Hd\,-Hd-.jpg");
+            background-size: cover;
+            background-attachment: auto;
+            background-repeat: no-repeat;
+            
+        }
+        
+        header  {
+            
+            background-color: #020202;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0; 
+        } 
+        
+        .header-content h1 {
+            justify-content: center;
+            color: red;
+        }
+        
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .tls-2 {
+            font-size: 16px;
+            margin-bottom: 10px;
+            text-align: center;
+            padding-left: 20px; 
+        }

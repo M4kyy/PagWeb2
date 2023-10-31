@@ -1,137 +1,129 @@
-header  {
-    
-    background-color: #020202;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0; 
-} 
 
 body {
-    font-family: "Verdana";
-    margin: 0;
-    padding: 0;
-    background-image: url("../sources/Full-Hd-Black-Wallpapers-Group-Dark-Wallpaper-Hd\,-Hd-.jpg");
-    background-size: cover;
-    background-attachment:scroll;
-    background-repeat: no-repeat;
-    flex-direction: column;
-    align-items: center;
+    font-family: Verdana;
+    background-color: #212121;
     text-align: center;
-}
-
-.header-content h1 {
-    justify-content: center;
-    color: red;
-    font-size: 36px;
+    padding: 20px;
+    background-image: url(../sources/Full-Hd-Black-Wallpapers-Group-Dark-Wallpaper-Hd\,-Hd-.jpg)
+    
 }
 
 h1 {
-    font-size: 48px;
-    margin-bottom: 15px;
-    text-align: center;
-}
-
-  #contacto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 20px;
-}
-
-#BtnVolver {
-    font-family: "Raleway";
-    font-weight: 300;
-    font-size: 17px;
+    font-size: 24px;
     color: #ff0000;
-    background-color: #4f0000;
-    padding: 10px 30px;
-    border: solid #000000 2px;
-    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
-    border-radius: 34px;
-    transition : 1303ms;
-    transform: translateY(0);
-    display: inline-block;
-    flex-direction: row;
-    align-items: center;
-    cursor: pointer;
-    text-transform: uppercase;
-    
 }
 
-#BtnVolver:hover{
-    transition : 1303ms;
-    padding: 10px 20px;
-    transform : translateY(-0px);
-    background-color: #bd1a1a;
+.container {
+    max-width: 390px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #929292;
+    border: 2px solid #6b6b6b;
+    border-radius: 7px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
     color: #000000;
-    border: solid 2px #000000;
-    
-    }
-
-.enviar-button {
-    font-family: "Raleway";
-    font-weight: 300;
-    font-size: 17px;
-    color: #ff0000;
-    background-color: #4f0000;
-    padding: 10px 30px;
-    border: solid #000000 2px;
-    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
-    border-radius: 34px;
-    transition : 1303ms;
-    transform: translateY(0);
-    display: inline-block;
-    flex-direction: row;
-    align-items: center;
-    cursor: pointer;
-    text-transform: uppercase;
-    
 }
 
-.enviar-button:hover {
-    font-family: "Raleway";
-    font-weight: 300;
-    font-size: 17px;
-    color: #ff0000;
-    background-color: #4f0000;
-    padding: 10px 30px;
-    border: solid #000000 2px;
-    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
-    border-radius: 34px;
-    transition : 1303ms;
-    transform: translateY(0);
-    display: inline-block;
-    flex-direction: row;
-    align-items: center;
-    cursor: pointer;
-    text-transform: uppercase;
-    
-}
-
-#msj{
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin: 10px 0;
-    background-color: #fff;
-    font-size: medium;
-    text-align: center;
-}
-
-p {
-    color: white;
-    font-size: 28px;
-    font-weight: bolder;
-    font-family: "Verdana";
-}
 
 input[type="text"],
 input[type="email"],
-
+input[type="number"],
 textarea {
-    width: 15%;
+    width: 90%;
     padding: 10px;
-    border: 1px solid #ffffff;
+    margin-bottom: 15px;
+    border: 3px solid #707070;
     border-radius: 5px;
     font-size: 16px;
+    resize: none;
+}
+
+
+.boton-enviar {
+    background-color: #ff0000;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Verdana;
+    cursor: pointer;
+}
+
+.boton-enviar:hover {
+background-color: #000000;
+color: white;
+}
+
+
+.error {
+    color: #ff0000;
+    font-size: 14px;
+}
+
+#datosIngresados{
+    font-size: 14px;
+    font-family: Verdana;
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
+
+#boton-volver {
+    background-color: #ff0000;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Verdana;
+    cursor: pointer;
+}
+
+#boton-volver:hover {
+    color: beige;
+    background-color: #000000;
+    
+}
+
+.direccion{
+    background-color: #212121;
+}
+
+.pagprin{
+    align-items: center;
+ 
+}
+
+.btn-tls, .btn-link-tls{
+    font-family: "Raleway";
+ font-weight: 300;
+ font-size: 17px;
+ color: #ff0000;
+ background-color: #4f0000;
+ padding: 10px 30px;
+ border: solid #000000 2px;
+ box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+ border-radius: 34px;
+ transition : 1303ms;
+ transform: translateY(0);
+ display: inline-block;
+ flex-direction: row;
+ align-items: center;
+ cursor: pointer;
+ text-transform: uppercase;
+}
+
+.btn-tls:hover, .btn-link-tls:hover{
+    transition : 1303ms;
+ padding: 10px 20px;
+ transform : translateY(-0px);
+ background-color: #bd1a1a;
+ color: #000000;
+ border: solid 2px #000000;
 }

@@ -1,16 +1,16 @@
-/*document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
 
     window.onload = function () {
     
         const IMAGENES = [
-            '../sources2/tls1/tls-1-2.jpg',
-            '../sources2/tls1/tls-1-1.jpg',
-            '../sources2/tls1/tls-1-3.jpg'
+            'sources2/tls-2-1.jpg',
+            'sources2/tls-2-2.jpg',
+            'sources2/tls-2-3.jpg'
         ];
         let posicionActual = 0;
-        let $botonRetroceder = document.querySelector('#retroceder');
-        let $botonAvanzar = document.querySelector('#avanzar');
-        let $imagen = document.querySelector('#imagen');
+        let $botonRetroceder = document.querySelector('#retroceder2');
+        let $botonAvanzar = document.querySelector('#avanzar2');
+        let $imagen = document.querySelector('#imagen2');
     
         function pasarFoto() {
             if(posicionActual >= IMAGENES.length - 1) {
@@ -30,8 +30,8 @@
             renderizarImagen();
         }
     
-        function renderizarImagen() {
-            $imagen.setAttribute('src', IMAGENES[posicionActual]);
+        function renderizarImagen () {
+            $imagen.style.backgroundImage = `url(${IMAGENES[posicionActual]})`;
         }
     
     
@@ -41,4 +41,4 @@
         renderizarImagen();
         } 
     
-    });*/
+    });

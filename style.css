@@ -215,7 +215,7 @@ h1 {
     font-size: large;
 }
 
-.btn-link-tls{
+.btn-link-tls {
     font-family: "Raleway";
     font-weight: 300;
     font-size: 17px;
@@ -235,12 +235,49 @@ h1 {
     text-decoration: none;
     }
 
-    .btn-tls:hover{
+    
+.btn-tls:hover, .contact-button:hover, .fa:hover, .fa-instagram:hover{
         transition : 1303ms;
         padding: 10px 20px;
         transform : translateY(-0px);
         background-color: #350000;
         color: #000000;
         border: solid 2px #000000;
-    
+    }
+
+    .contact-button{
+        font-family: "Raleway";
+        font-weight: 300;
+        font-size: 17px;
+        color: #000000;
+        background-color: #000000;
+        padding: 10px 30px;
+        border: solid #000000 2px;
+        box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+        border-radius: 34px;
+        transition : 1303ms;
+        transform: translateY(0);
+        display: inline-block;
+        flex-direction: row;
+        cursor: pointer;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    .fa, .fa-instagram{
+        font-family: "Raleway";
+        font-weight: 300;
+        font-size: 17px;
+        color: #000000;
+        background-color: #000000;
+        padding: 10px 30px;
+        border: solid #000000 2px;
+        box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+        border-radius: 34px;
+        transition : 1303ms;
+        transform: translateY(0);
+        display: inline-block;
+        flex-direction: row;
+        cursor: pointer;
+        text-transform: uppercase;
+        text-decoration: none;
     }
