@@ -47,6 +47,7 @@ header  {
 }
 
 h1 {
+    color:white;
     font-size: 36px;
     margin-bottom: 10px;
     text-align: center;
@@ -54,6 +55,7 @@ h1 {
 
 
 .page-description {
+    color:white;
     font-size: 20px;
     margin-bottom: 20px;
     line-height: 1.5;
@@ -102,8 +104,8 @@ h1 {
  transition : 1303ms;
  padding: 10px 20px;
  transform : translateY(-0px);
+ color:white;
  background-color: #bd1a1a;
- color: #f9f9f9;
  border: solid 2px #000000;
  
  }
@@ -249,7 +251,7 @@ h1 {
         font-family: "Raleway";
         font-weight: 300;
         font-size: 17px;
-        color: #ffffff;
+        color:white;
         background-color: #000000;
         padding: 10px 30px;
         border: solid #000000 2px;
@@ -267,7 +269,7 @@ h1 {
         font-family: "Raleway";
         font-weight: 300;
         font-size: 17px;
-        color: #ffffff;
+        color:white;
         background-color: #000000;
         padding: 10px 30px;
         border: solid #000000 2px;
